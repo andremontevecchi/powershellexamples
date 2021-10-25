@@ -1,7 +1,8 @@
-﻿#Installing the PnP PowerShell 
+﻿#Example to hide a content type using PnP PowerShell
+#Installing the PnP PowerShell 
 #Install-Module -Name SharePointPnPPowerShellOnline
 $SiteURL = "https://yourtenant.sharepoint.com/sites/yoursite"
-$ListName = "Contacts" # The list name of your list
+$ListName = "Contacts" # your list name
 $ContentTypeName ="Task" # your content type name that you need to change the visibility
  
 #Connect to Pnp Online
